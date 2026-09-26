@@ -10,10 +10,10 @@ public class Selectionsort {
 
             for(int j = i + 1; j < n; j++){
                 if(arr[j] < arr[minIndex]){
-                    minIndex = j;
+                    minIndex= j;
                 }
             }
-
+              
             // swap once after finding minimum
             int temp = arr[i];
             arr[i] = arr[minIndex];
