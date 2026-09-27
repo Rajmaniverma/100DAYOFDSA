@@ -1,4 +1,4 @@
-package Lec39;
+package Day6;
 
 public class Insertionsort {
     void Insertion(int[] arr){
