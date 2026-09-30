@@ -10,7 +10,9 @@ public class Insertionsort {
 
             while(j >= 0 && arr[j] > tar){ //
                 arr[j + 1] = arr[j];  //
+                System.out.println("pre :" +  j);
                 j--;
+                System.out.println("post :" + j);
             }
 
             arr[j + 1] = tar; // insert   
