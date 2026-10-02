@@ -9,6 +9,8 @@ public class Factorial {
    } 
    public static void main(String[] args) {
     int n=fact(6);
+    int x
+    = 10/0;
        System.out.println(n);
    }
 }
